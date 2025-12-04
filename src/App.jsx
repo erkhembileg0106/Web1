@@ -19,7 +19,7 @@ import Black from "./components/Black";
 const App = () => {
   return (
     <main>
-          {/* <Nav />
+          <Nav />
           <Hero />
           <CompanyLogo />
           <Purpose />
@@ -30,11 +30,11 @@ const App = () => {
           <Service />
           <Testimonials />
           <Newsletter />
-          <Footer /> */}
-          <Hazel />
+          <Footer />
+          {/* <Hazel />
           <White />
           <Gray />
-          <Black />
+          <Black /> */}
         
     </main>
   );
