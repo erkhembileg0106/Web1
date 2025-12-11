@@ -52,6 +52,10 @@ const Portfolio = () => {
               <h3 className="text-xl font-bold mb-2">Аялах</h3>
               <p className="text-slate-600">Байгалийн сайханыг мэдэрч, найзуудтайгаа цагийг өнгөрөөх нь намайг илүү аз жаргалтай болгож, юмсыг илүү сайхнаар бодоход тусалдаг.</p>
             </div>
+            <div className="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+              <h3 className="text-xl font-bold mb-2">Аялах</h3>
+              <p className="text-slate-600">Байгалийн сайханыг мэдэрч, найзуудтайгаа цагийг өнгөрөөх нь намайг илүү аз жаргалтай болгож, юмсыг илүү сайхнаар бодоход тусалдаг.</p>
+            </div>
           </div>
         </section>
         <section id="school" className="min-h-[70vh] flex flex-col justify-center">
