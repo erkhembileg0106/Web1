@@ -21,7 +21,7 @@ const Portfolio = () => {
       id: 2,
       title: "FPS тоглоом тоглох",
       desc: "Counter-Strike, Valorant зэрэг тоглоомуудыг чөлөөт цагаараа найуудтайгаа, ялангуяа ангийнхантайгаа тоглох зугаатай.",
-      image: "https://images.unsplash.com/photo-1542751371-adc38148e658?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=800",
       color: "from-purple-500 to-indigo-600"
     },
     {
