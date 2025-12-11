@@ -16,10 +16,11 @@ import Hazel from "./components/Hazel";
 import White from "./components/White";
 import Gray from "./components/Gray";
 import Black from "./components/Black";
+import Portfolio from "./components/Portfolio";
 const App = () => {
   return (
     <main>
-          <Nav />
+          {/* <Nav />
           <Hero />
           <CompanyLogo />
           <Purpose />
@@ -30,11 +31,12 @@ const App = () => {
           <Service />
           <Testimonials />
           <Newsletter />
-          <Footer />
+          <Footer /> */}
           {/* <Hazel />
           <White />
           <Gray />
           <Black /> */}
+          <Portfolio />
         
     </main>
   );
