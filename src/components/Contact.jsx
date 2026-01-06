@@ -1,21 +1,25 @@
+import { Mail, Phone, MessageSquare } from 'lucide-react';
+
 function Contact() {
   return (
-    <section id="contact" className="py-24 border-t border-slate-200">
-      <div className="max-w-5xl mx-auto px-6 text-center">
-        <h1 className="text-4xl font-black mb-8">Холбоо барих</h1>
+    <section id="contact" className="py-24 border-t border-slate-200 bg-white">
+      <div className="max-w-3xl mx-auto px-6 text-center">
+        <div className="inline-block p-3 bg-indigo-50 rounded-2xl mb-4 text-indigo-600">
+          <MessageSquare size={32} />
+        </div>
+        <h1 className="text-4xl font-black mb-4 text-slate-900">Хамтран ажиллацгаая</h1>
+        <p className="text-slate-500 mb-12">Таны санааг бодит болгоход би тусалж чадна.</p>
 
-        <div className="bg-white p-10 rounded-3xl shadow-lg max-w-xl mx-auto">
-          <p className="text-lg mb-4">
-            Gmail: <span className="font-semibold">Erkhembileg176@gmail.com</span>
-          </p>
-
-          <p className="text-lg mb-8">
-            Утас: <span className="font-semibold">9561****</span>
-          </p>
-
-          <button className="px-8 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition">
-            Надтай холбогдох
-          </button>
+        <div className="grid gap-4">
+          <a href="mailto:Erkhembileg176@gmail.com" className="flex items-center justify-center gap-4 p-6 bg-slate-50 rounded-3xl border border-slate-100 hover:border-indigo-300 hover:bg-white transition group">
+            <Mail className="text-indigo-600 group-hover:scale-110 transition" />
+            <span className="text-lg font-semibold">Erkhembileg176@gmail.com</span>
+          </a>
+          
+          <div className="flex items-center justify-center gap-4 p-6 bg-slate-50 rounded-3xl border border-slate-100">
+            <Phone className="text-indigo-600" />
+            <span className="text-lg font-semibold">Утас: 9561****</span>
+          </div>
         </div>
       </div>
     </section>
