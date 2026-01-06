@@ -17,6 +17,10 @@ import White from "./components/White";
 import Gray from "./components/Gray";
 import Black from "./components/Black";
 import Portfolio from "./components/Portfolio";
+import Home from "./components/Home";
+import Projects from "./components/Project";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 const App = () => {
   return (
     <main>
@@ -36,7 +40,11 @@ const App = () => {
           <White />
           <Gray />
           <Black /> */}
-          <Portfolio />
+          {/* <Portfolio /> */}
+          <Home />
+          <Projects />
+          <Resume />
+          <Contact />
         
     </main>
   );
