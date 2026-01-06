@@ -7,8 +7,8 @@ function Contact() {
         <div className="inline-block p-3 bg-indigo-50 rounded-2xl mb-4 text-indigo-600">
           <MessageSquare size={32} />
         </div>
-        <h1 className="text-4xl font-black mb-4 text-slate-900">Хамтран ажиллацгаая</h1>
-        <p className="text-slate-500 mb-12">Таны санааг бодит болгоход би тусалж чадна.</p>
+        <h1 className="text-4xl font-black mb-4 text-slate-900">Эрүүл мэнд</h1>
+        <p className="text-slate-500 mb-12">Та өөртөө амралт өгөөрэй.</p>
 
         <div className="grid gap-4">
           <a href="mailto:Erkhembileg176@gmail.com" className="flex items-center justify-center gap-4 p-6 bg-slate-50 rounded-3xl border border-slate-100 hover:border-indigo-300 hover:bg-white transition group">
